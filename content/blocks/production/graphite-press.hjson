@@ -1,0 +1,29 @@
+health: 160
+size: 2
+
+hasItems: true
+itemCapacity: 10
+
+requirements: [
+    copper/500
+    lead/500
+    coal/500
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: coal
+                amount: 2
+            },
+            copper/30
+            lead/30
+        ]
+    }
+}
+outputItem: activation-matter/1
+craftTime: 90
+
+category: crafting
+research: alloy-smelter
